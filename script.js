@@ -113,3 +113,38 @@ if (personalMovieDB.count < 10){
     console.log("Печально, это ошибка ");
 }
 console.log(personalMovieDB);
+
+//Функции 
+//Function Declaration где угодно можно обьявить
+ function showFirstMessage(text){
+     console.log(text);
+ }
+
+ showFirstMessage("hello");
+
+ 
+ function calc(a, b){
+     return(a * b + 10);
+ }
+ console.log(calc(2,2));
+
+ function ret(){
+     let num = 50;
+     return(num);
+ }
+ const anotherNum = ret();
+
+ console.log(anotherNum);
+
+ // function Exspression 
+ //Можно вызвать только когда доходит код 
+
+ const logger = function (){
+   console.log("hello");  
+ };
+ logger();
+
+ //Стрелочная функция 
+  const calk = (a, b) => { return a + b};
+
+  console.log(calk(5,6));
